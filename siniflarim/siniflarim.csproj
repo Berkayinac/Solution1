@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="asdsasad.cs" />
     <Compile Include="Kahve.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

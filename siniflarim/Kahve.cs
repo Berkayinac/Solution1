@@ -26,6 +26,7 @@ namespace siniflarim
                     value = 100;
                     fiyat = value;
                 }
+                fiyat = value;
             }
         }
     }

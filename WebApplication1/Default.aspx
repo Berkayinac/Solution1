@@ -25,7 +25,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox></td>
+                        <asp:ListBox ID="ListBox1" runat="server" Width="318px"></asp:ListBox></td>
                     <td>
                         <asp:TextBox ID="tbx_hololo" runat="server"></asp:TextBox>
                         <asp:Button ID="btn_hololo" runat="server" Text="Button" OnClick="btn_hololo_Click" />

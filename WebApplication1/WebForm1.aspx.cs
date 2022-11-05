@@ -13,9 +13,8 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             // Session üzerinden veri çekme
-            var kahve = (Kahve)HttpContext.Current.Session["kahve"];
+            string kahve = Convert.ToString(HttpContext.Current.Session["kahve"]);
 
-            Label1.Text = kahve.Adi;
             Label2.Text = Convert.ToString(HttpContext.Current.Session["check"]);
         }
     }
